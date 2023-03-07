@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: javajava-java-sample-7okp
     spec:
       containers:
-      - image: quay.io/psturc/test-images-protected:4ohzb-javajava-java-sample-7okp
+      - image: quay.io/psturc/test-images-protected@sha256:f56812a0b2c5c14235b7d2f5fb0a7f77dcc14f3b7863c1cb799949c76a3fd90a
         name: my-java-springboot
         ports:
         - containerPort: 8081
