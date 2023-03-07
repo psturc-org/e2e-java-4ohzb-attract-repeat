@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: javajava-java-sample-7okp
+  namespace: e2e-demos-nbot-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/psturc/test-images-protected@sha256:f56812a0b2c5c14235b7d2f5fb0a7f77dcc14f3b7863c1cb799949c76a3fd90a
+        name: my-java-springboot
+        resources: {}
+status: {}
